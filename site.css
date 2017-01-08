@@ -101,6 +101,10 @@ body {
   min-height: 100%;
   margin-top: 70px;
 }
+
+.pagehead{
+	display: inline-block;
+}
 .row {
 	display: inline-block;
 	width: 100%;
