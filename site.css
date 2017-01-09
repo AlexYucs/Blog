@@ -81,6 +81,7 @@ body {
 	margin-top: 70px;
 }
 .blogmain {
+	height: 100%;
 	display: table;
 	float: left;
 	width: 58%;
@@ -91,6 +92,7 @@ body {
 	display:inline-block;
 }
 .sidebar{
+	height: 100%;
 	display: table;
 	float: left;
 	width: 32%;
@@ -101,9 +103,9 @@ body {
 	color: #003399;
 }
 .box{
-	padding-top: 20px;
+	padding-top: 10px;
 	background-color: #D8D8D8;
-	width: 100%;
+	width: 80px;
 	height: 200px;
 	padding-bottom: 20px;
 }
