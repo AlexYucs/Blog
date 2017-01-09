@@ -87,6 +87,9 @@ body {
 	padding-left: 8%;
 	text-align: left;
 }
+.row{
+	display:inline-block;
+}
 .sidebar{
 	display: table;
 	float: left;
@@ -103,12 +106,6 @@ body {
 	width: 100%;
 	height: 200px;
 	padding-bottom: 20px;
-}
-.subbox{
-	margin: auto;
-	height: auto;
-	padding: 10px;
-	width: 70px;
 }
 
 /*Button*/
