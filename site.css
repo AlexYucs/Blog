@@ -84,7 +84,7 @@ body {
 	display: table;
 	float: left;
 	width: 60%;
-	padding-left: 3%;
+	padding-left: 8%;
 	text-align: left;
 }
 .sidebar{
@@ -92,7 +92,7 @@ body {
 	float: left;
 	width: 30%;
 	text-align: left;
-	padding-left:3%;
+	padding-left:1%;
 }
 .sidebar a{
 	color: #003399;
