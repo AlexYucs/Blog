@@ -100,13 +100,14 @@ body {
 .box{
 	padding-top: 20px;
 	background-color: #D8D8D8;
-	width: 90px;
+	width: 32%;
 	height: 200px;
 	padding-bottom: 20px;
 }
 
 /*Button*/
 .button {
+	width: 95px;
 	display: inline-block;
 	outline: none;
 	cursor: pointer;
