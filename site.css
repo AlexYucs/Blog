@@ -109,7 +109,12 @@ body {
 	height: 200px;
 	padding-bottom: 20px;
 }
-
+.subbox{
+	word-wrap: break-word;
+	margin: auto;
+	height: 100%;
+	width: 60px;
+}
 /*Button*/
 .button {
 	display: inline-block;
