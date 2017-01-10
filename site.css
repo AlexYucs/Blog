@@ -91,6 +91,7 @@ body {
 .post{
 	display: table;
 	width: 100%;
+	Height: 100%;
 	float: left;
 	outline: solid;
 	word-wrap: break-word;
