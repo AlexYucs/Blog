@@ -90,6 +90,7 @@ body {
 }
 .post{
 	display: table;
+	width: 100%;
 	float: left;
 	outline: solid;
 	word-wrap: break-word;
@@ -99,6 +100,7 @@ body {
 	float: left;
 	display: inline-block;
 	width: 100%;
+	margin: auto;
 }
 .book{
 	float: left;
