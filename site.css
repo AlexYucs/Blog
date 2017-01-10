@@ -104,8 +104,9 @@ body {
 }
 .book{
 	float: left;
-	width: 45%;
+	width: 40%;
 	margin: auto;
+	padding-left: 6.666%;
 }
 .row{
 	display:inline-block;
