@@ -81,7 +81,6 @@ body {
 	margin-top: 70px;
 }
 .blogmain {
-	height: 100%;
 	display: table;
 	float: left;
 	width: 58%;
@@ -92,7 +91,6 @@ body {
 	display:inline-block;
 }
 .sidebar{
-	height: 100%;
 	display: table;
 	float: left;
 	width: 32%;
@@ -192,6 +190,12 @@ body {
 		min-height: 100%;
 		margin-top: 70px;
 	}
+	.box{
+		width: 90px;
+	}
+	.subbox{
+		width: 60px;
+	}
 
 }
 @media only screen and (max-device-width: 480px) {
@@ -202,5 +206,11 @@ body {
 		height: 100%; /* For at least Firefox */
 		min-height: 100%;
 		margin-top: 70px;
+	}
+	.box{
+		width: 90px;
+	}
+	.subbox{
+		width: 60px;
 	}
 }
