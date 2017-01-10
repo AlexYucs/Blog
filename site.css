@@ -99,7 +99,8 @@ body {
 	width: 100%;
 }
 .book{
-	width: 45%;
+	width: 35%;
+	margin: auto;
 }
 .row{
 	display:inline-block;
