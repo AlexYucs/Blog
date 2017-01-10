@@ -81,7 +81,7 @@ body {
 	margin-top: 70px;
 }
 .blogmain {
-	display: inline-block;
+	display: table;
 	float: left;
 	width: 58%;
 	padding-left: 8%;
@@ -89,6 +89,7 @@ body {
 	padding-bottom: 10%;
 }
 .post{
+	display: table;
 	float: left;
 	outline: solid;
 	word-wrap: break-word;
