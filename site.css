@@ -105,9 +105,10 @@ body {
 .box{
 	padding-top: 10px;
 	background-color: #D8D8D8;
-	width: 80px;
+	width: 90px;
 	height: 200px;
 	padding-bottom: 20px;
+	margin: auto;
 }
 .subbox{
 	word-wrap: break-word;
