@@ -109,7 +109,7 @@ body {
 	width: 40%;
 	margin: auto;
 	padding-left: 10%;
-
+	word-wrap: break-word;
 }
 .row{
 	display:inline-block;
