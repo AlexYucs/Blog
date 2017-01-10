@@ -196,9 +196,11 @@ body {
 		height: 100%; /* For at least Firefox */
 		min-height: 100%;
 		margin-top: 70px;
+		margin: auto;
 	}
 	.sidebar{
 		width:100%;
+		margin: auto;
 	}
 	.box{
 		width: 80%;
@@ -223,9 +225,11 @@ body {
 		height: 100%; /* For at least Firefox */
 		min-height: 100%;
 		margin-top: 70px;
+		margin: auto;
 	}
 	.sidebar{
 		width:100%;
+		margin: auto;
 	}
 	.box{
 		width: 80%;
