@@ -99,7 +99,6 @@ body {
 }
 .book{
 	width: 45%;
-	display: table;
 }
 .row{
 	display:inline-block;
