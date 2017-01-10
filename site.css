@@ -91,7 +91,7 @@ body {
 .post{
 	display: table;
 	width: 100%;
-	Height: 100%;
+	height: 100%;
 	float: left;
 	outline: solid;
 	word-wrap: break-word;
@@ -102,7 +102,7 @@ body {
 	display: inline-block;
 	width: 100%;
 	margin: auto;
-	padding-bottom: 10%;
+
 }
 .book{
 	float: left;
