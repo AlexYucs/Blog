@@ -89,17 +89,19 @@ body {
 	padding-bottom: 10%;
 }
 .post{
-
+	float: left;
 	outline: solid;
 	word-wrap: break-word;
 	margin: auto;
 }
 .subpost{
+	float: left;
 	display: inline-block;
 	width: 100%;
 }
 .book{
-	width: 50%;
+	float: left;
+	width: 45%;
 	margin: auto;
 }
 .row{
