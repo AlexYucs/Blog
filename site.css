@@ -93,7 +93,14 @@ body {
 	word-wrap: break-word;
 	margin: auto;
 }
-
+.subpost{
+	display: inline-block;
+	width: 100%;
+}
+.book{
+	width: 45%;
+	display: table;
+}
 .row{
 	display:inline-block;
 }
