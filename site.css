@@ -87,6 +87,11 @@ body {
 	padding-left: 8%;
 	text-align: left;
 }
+.post{
+	outline: solid;
+	word-wrap: break-word;
+}
+
 .row{
 	display:inline-block;
 }
