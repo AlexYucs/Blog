@@ -99,8 +99,7 @@ body {
 }
 .subpost{
 	float: left;
-	display: inline-block;
-	width: 100%;
+	width: 90%;
 	margin: auto;
 
 }
