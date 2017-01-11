@@ -34,6 +34,7 @@ li p{
 	/*font-size: 20px;*/
     padding: 0px 0px 0px 25px;
     text-decoration: none;
+	font-family: Tahoma, Geneva, sans-serif;
 }
 li a {
     display: block;
@@ -41,7 +42,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-	font: Arial, Helvetica, sans-serif;
+	
 }
 
 /* Change the link color to #111 (black) on hover */
@@ -68,7 +69,6 @@ body {
   background-color: white;
 }
 body {
-  font: Arial, Helvetica, sans-serif;
   color: #464646;
   text-align: center;
   text-shadow: 0 1px 3px rgba(70,70,70,.5);
@@ -200,7 +200,22 @@ body {
 	color: rgba(255,255,255,.5);
 	background-color: #191919;
 }
-
+p{
+	font-family: Tahoma, Geneva, sans-serif;
+	
+}
+h1{
+	font-family: Tahoma, Geneva, sans-serif;
+}
+h2{
+	font-family: Tahoma, Geneva, sans-serif;
+}
+h3{
+	font-family: Tahoma, Geneva, sans-serif;
+}
+h4{
+	font-family: Tahoma, Geneva, sans-serif;
+}
 
 /*
  * Affix and center
