@@ -41,6 +41,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+	font: Arial, Helvetica, sans-serif;
 }
 
 /* Change the link color to #111 (black) on hover */
@@ -67,6 +68,7 @@ body {
   background-color: white;
 }
 body {
+  font: Arial, Helvetica, sans-serif;
   color: #464646;
   text-align: center;
   text-shadow: 0 1px 3px rgba(70,70,70,.5);
