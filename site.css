@@ -116,6 +116,7 @@ body {
 }
 .sidebar{
 	display: table;
+	height: 100%;
 	float: right;
 	width: 32%;
 	text-align: left;
