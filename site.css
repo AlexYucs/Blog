@@ -81,6 +81,7 @@ body {
 	height: 100%; /* For at least Firefox */
 	min-height: 100%;
 	margin-top: 70px;
+	padding-top: 10%;
 }
 .blogmain {
 	display: table;
@@ -233,7 +234,7 @@ h4{
  */
 @media only screen and (max-device-width: 640px) {
 	.site-wrapper {
-
+		
 		display: table;
 		width: 100%;
 		height: 100%; /* For at least Firefox */
@@ -259,6 +260,11 @@ h4{
 	.post{
 		width: 80%;
 		margin: auto;
+	}
+	.pic img{
+		display: block;
+		margin: auto;
+		width:90%;
 	}
 
 }
@@ -290,5 +296,10 @@ h4{
 	.post{
 		width: 80%;
 		margin: auto;
+	}
+	.pic img{
+		display: block;
+		margin: auto;
+		width:90%;
 	}
 }
