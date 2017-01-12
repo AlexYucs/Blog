@@ -86,9 +86,9 @@ body {
 	display: table;
 	float: left;
 	width: 58%;
+	height: 100%;
 	padding-left: 8%;
 	text-align: left;
-	padding-bottom: 10%;
 }
 .post{
 	display: table;
