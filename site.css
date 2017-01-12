@@ -3,9 +3,7 @@
  */
 
 /* Links */
-a{
-	color: #0645AD;
-},
+a,
 a:focus,
 a:hover {
   color: #fff;
@@ -105,12 +103,20 @@ body {
 	margin: auto;
 
 }
+.subpost a{
+	color: #0645AD;
+}
 .pic{
-	display: table;
+	display: block;
 	width: 90%;
-	margin: auto;
+	margin-left: auto;
+    margin-right: auto;
 	word-wrap: break-word;
 }
+.pic b{
+	text-align: center
+}
+
 .row{
 	display:inline-block;
 }
