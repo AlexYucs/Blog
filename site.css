@@ -114,9 +114,12 @@ body {
 	word-wrap: break-word;
 }
 .pic b{
-	text-align: center
+	text-align: center;
+	margin: auto;
 }
-
+.pic img{
+	margin: auto;
+}
 .row{
 	display:inline-block;
 }
