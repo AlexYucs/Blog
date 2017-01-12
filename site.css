@@ -114,10 +114,12 @@ body {
 	word-wrap: break-word;
 }
 .pic b{
+	display: block;
 	text-align: center;
 	margin: auto;
 }
 .pic img{
+	display: block;
 	margin: auto;
 }
 .row{
