@@ -1,2 +1,2 @@
 # Blog
-Book Blog on website
+Coding Blog on my website
