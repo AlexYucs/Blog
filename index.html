@@ -1,106 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>	
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-		<script src="https://use.fontawesome.com/fb2e0a0d61.js"></script>
-		<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
-		<style type="text/css">a {text-decoration: none}</style>
-		
-		<title>Alex Yu - University of Maryland Student and Software Engineer</title>
 
-		<!-- Custom styles for this template -->
-		<link href="site.css" rel="stylesheet">
-	</head>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<script src="https://use.fontawesome.com/fb2e0a0d61.js"></script>
+	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+	<style type="text/css">
+		a {
+			text-decoration: none
+		}
+	</style>
+
+	<title>Alex Yu - University of Maryland Student and Software Engineer</title>
+
+	<!-- Custom styles for this template -->
+	<link href="site.css" rel="stylesheet">
+</head>
 
 
-	<body>       
-		<!-- Navbar sticky-->
-		<ul>
-			<li ><a href="http://alexyucs.com/" style="text-decoration: none">Home</a></li>
-			<li style="float:right"><a href="/resume.pdf" style="text-decoration: none">Resume</a></li>
-			<li style="float:right" class="active"><a href="/Blog" style="text-decoration: none">Blog</a></li>
-			<li style="float:right"><a href="/Projects" style="text-decoration: none">Projects</a></li>			
-		</ul>
+<body>
+	<!-- Navbar sticky-->
+	<ul>
+		<li><a href="http://alexyucs.com/" style="text-decoration: none">Home</a></li>
+		<li style="float:right"><a href="/resume.pdf" style="text-decoration: none">Resume</a></li>
+		<li style="float:right" class="active"><a href="/Blog" style="text-decoration: none">Blog</a></li>
+		<li style="float:right"><a href="/Projects" style="text-decoration: none">Projects</a></li>
+	</ul>
 
-		<!--Text here-->
-		<div class="site-wrapper">
-			<h1>Rubber Ducky</h1>
-			<hr width = 100>
-			<br>
-			<!--<div class="row">
+	<!--Text here-->
+	<div class="site-wrapper">
+		<h1>Rubber Ducky</h1>
+		<hr width=1 00>
+		<br>
+		<!--<div class="row">
 				<a href="http://alexyucs.com/Blog/" class="button blue"><font color="white">Favorites</font></a>
 				<a href="http://alexyucs.com/Blog/Finished" class="button blue"><font color="white">Finished</font></a>
 			</div>-->
-			<br>
-			<div class= "sidebar">
-				<div class="box">
-					<div class = "subbox">
-						<h3>About</h3>
-						<p>The rambling thoughts of a programmer with too much imagination. Debugging/Innovation are the end goals, and this is the journey.</p>
-					</div>
-				</div>
-				<br>
-				<br>
-				<div class="col">
+		<br>
+		<div class="sidebar">
+			<div class="box">
+				<div class="subbox">
+					<h3>About</h3>
+					<p>The rambling thoughts of a programmer with too much imagination. Debugging/Innovation are the end goals, and this is the journey.</p>
 				</div>
 			</div>
-			<div class= "blogmain">
-				<div class="post">
-					<div class = "subpost">
-						<h2>Travel Helper: Check Gas Prices</h2>
+			<br>
+			<br>
+			<div class="col">
+			</div>
+		</div>
+		<div class="blogmain">
+			<div class="post">
+
+				<div class = "subpost">
+					<h2>Minimalistic Python Music Player</h2>
+					<br>
+					<p>I'm always a fan of minimalistic design. The goal for this project was to create a lightweight
+					Music Player with only 6 buttons, Play, Pause, Forward, Backward, and Volume Controls. Similar to a
+					Digital iPod Shuffle."</p>
+					<br>
+					<p>I tried to start with the python vlc module, but it seemed to be too reliant on plugins. The next best option
+					was to use a different module that could play mp3 files. Luckily I found pygame.</p>
+					<br>
+					<p>With the music player organized, it was time to make the GUI. The Tkinter python module made it very simple.
+					Just create a window, add in the buttons along a grid, make a draggable label, and use overrideredirect. The result was a small and
+				unobstrusive music player.</p>
+					<!--<div class = pic>
+						<img src="file.jpg" alt="code" style="width:300px;height:346px;">
 						<br>
-						<p>During the Spring and Summer, I do a lot of hiking. Unfortunately, most of 
-						the nice trails are over an hour away from me, which means I'm not very familiar
-						with the area.<br><br>
-						I remember one of my trips during this past Summer ended in a mess. We nearly ran out of 
-						gas somewhere in Fredrick County, so we grabbed the first available gas station and 
-						filled our tank. However, every gas station we saw afterwards was significantly cheaper and 
-						I felt we were a bit ripped off.<br><br>
-						So, I'll be writing a Python bot to find the lowest gas prices in a small radius. The 
-						original plan was to use Google Places API and request the prices for gas_stations, but I ran into a little problem
-						</p>
+						<b>caption</b>
 						<br>
-						<div class = pic>
-							<b>Google Places API JSON response</b>
-							<br>
-							<img src="CGP1.jpg" alt="CGP1" style="width:301px;height:409px;">
-							<br>
-							<br>
-						</div>
-						<p>As you can see, the API request can get location just fine, but there's no listing for prices. 
-						It's really strange because the prices for each gas station are still listed on google maps.</p>
 						<br>
-						<div class = pic>
-							<b>myGasFeed API JSON response</b>
-							<br>
-							<img src="CGP2.jpg" alt="CGP2" style="width:300px;height:346px;">
-							<br>
-							<br>
-						</div>
-						<p>With Google Places not cooperating, I took a look at other API's and <a href="http://www.mygasfeed.com/keys/api">myGasFeed</a> looked promising. 
-						The API was relatively easy to implement and the <a href="https://www.facebook.com/Gas-Check-Bot-712545495568898/">bot</a> seems successful. It will
-						need to be approved, but once it is finished you will be able to send a location from the FB mobile app and then ask "What gas stations are near me?" to get
-						a list of all gas stations within a 2 mile radius ordered by distance, their prices, and their address.</p>
+					</div>-->
+				<br>
+				<br>
+			</div>
+		</div>
+			<div class="post">
+				<div class="subpost">
+					<h2>Travel Helper: Check Gas Prices</h2>
+					<br>
+					<p>During the Spring and Summer, I do a lot of hiking. Unfortunately, most of the nice trails are over an hour away from me, which means I'm not very familiar with the area.<br><br> I remember one of my trips during this past Summer ended in a mess.
+						We nearly ran out of gas somewhere in Fredrick County, so we grabbed the first available gas station and filled our tank. However, every gas station we saw afterwards was significantly cheaper and I felt we were a bit ripped off.<br><br> So, I'll
+						be writing a Python bot to find the lowest gas prices in a small radius. The original plan was to use Google Places API and request the prices for gas_stations, but I ran into a little problem
+					</p>
+					<br>
+					<div class=p ic>
+						<b>Google Places API JSON response</b>
 						<br>
-						<div class = pic>
-							<b>Final Product</b>
-							<br>
-							<img src="CGP3.jpg" alt="CGP3" style="width:300px;height:346px;">						
-							<br>
-							<br>
-						</div>
-						<p>The code was relatively simple, just send the url request with the key and gps coordinates, then parse the json response.
-						The errors I had were mostly typos and they were cleared up with a few print statements and a bit of log monitoring. The most 
-						embarassing error was an extra "\n" in the default location text file. I didn't catch it until one of the Facebook tester accidentally 
-						hit an infinite loop. Luckily, I shut the app down and repaired it before that went out of control.<p/>
+						<img src="CGP1.jpg" alt="CGP1" style="width:301px;height:409px;">
+						<br>
+						<br>
 					</div>
+					<p>As you can see, the API request can get location just fine, but there's no listing for prices. It's really strange because the prices for each gas station are still listed on google maps.</p>
 					<br>
+					<div class=p ic>
+						<b>myGasFeed API JSON response</b>
+						<br>
+						<img src="CGP2.jpg" alt="CGP2" style="width:300px;height:346px;">
+						<br>
+						<br>
+					</div>
+					<p>With Google Places not cooperating, I took a look at other API's and <a href="http://www.mygasfeed.com/keys/api">myGasFeed</a> looked promising. The API was relatively easy to implement and the <a href="https://www.facebook.com/Gas-Check-Bot-712545495568898/">bot</a>						seems successful. It will need to be approved, but once it is finished you will be able to send a location from the FB mobile app and then ask "What gas stations are near me?" to get a list of all gas stations within a 2 mile radius ordered by distance,
+						their prices, and their address.</p>
 					<br>
+					<div class=p ic>
+						<b>Final Product</b>
+						<br>
+						<img src="CGP3.jpg" alt="CGP3" style="width:300px;height:346px;">
+						<br>
+						<br>
+					</div>
+					<p>The code was relatively simple, just send the url request with the key and gps coordinates, then parse the json response. The errors I had were mostly typos and they were cleared up with a few print statements and a bit of log monitoring. The most
+						embarassing error was an extra "\n" in the default location text file. I didn't catch it until one of the Facebook tester accidentally hit an infinite loop. Luckily, I shut the app down and repaired it before that went out of control.
+						<p/>
 				</div>
-				<!--
+				<br>
+				<br>
+			</div>
+			<!--
 				<div class="post">
 
 					<div class = "subpost">
@@ -119,22 +140,23 @@
 					<br>
 				</div>
 				-->
-			</div>
-			<br>
-			<br>
-			<br>
-			<br>
 		</div>
+		<br>
+		<br>
+		<br>
+		<br>
+	</div>
 
-		<!--Footer not sticky-->
-		<footer class="thisfoot">
-			<div class= "container">
-				<div class = "foottag">
-					<a href="mailto:alex@alexyucs.com">alex@alexyucs.com</a>
-				</div>
-				<a href="https://www.github.com/AlexYucs"><i class="fa fa-github fa-fw fa-3x"></i></a>
-				<a href="https://www.linkedin.com/in/alex-yu-compsci-umd"><i class="fa fa-linkedin fa-fw fa-3x"></i></a>
-			</div>	
-		</footer>
-	</body>
+	<!--Footer not sticky-->
+	<footer class="thisfoot">
+		<div class="container">
+			<div class="foottag">
+				<a href="mailto:alex@alexyucs.com">alex@alexyucs.com</a>
+			</div>
+			<a href="https://www.github.com/AlexYucs"><i class="fa fa-github fa-fw fa-3x"></i></a>
+			<a href="https://www.linkedin.com/in/alex-yu-compsci-umd"><i class="fa fa-linkedin fa-fw fa-3x"></i></a>
+		</div>
+	</footer>
+</body>
+
 </html>
