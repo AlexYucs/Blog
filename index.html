@@ -53,11 +53,52 @@
 			</div>
 		</div>
 		<div class="blogmain">
+
+
+			<div class="post">
+				<div class = "subpost">
+					<h2>Movie Tracker Java</h2>
+					<h4>March 2017</h4>
+					<br>
+					<p>It's spring break and time for a new project! This time I'll be working on a
+					java application to track movie ratings on <a href="http://www.imdb.com/">IMDb</a>. First off, I'll
+					need to web scrape information from their site.</p>
+					<br>
+					<h3>Web Scraping with Jsoup</h3>
+					<br>
+					<p>Luckily, I found <a href="https://jsoup.org/">Jsoup</a> pretty quickly. It's an open source
+					java library for interpreting html on webpages. It was easy to use and very similar to the module
+					<a href="https://www.crummy.com/software/BeautifulSoup/">Beautiful Soup</a> that I used for webscraping with python.
+					With the webscraper all set, the next step will be interpreting the information.</p>
+					<br>
+					<h3>Data Structures</h3>
+					<br>
+					<p>To store all of this information, I created a Movie Class. This could record everything from titles,
+						directors, and ratings. The information from the html was relatively easy to parse, so everything could
+						be sent in through the constructor for the class. There is even room to add personal ratings to each movie.
+					</p>
+					<br>
+					<p>Up next is the issue of being able to sort the movies by rating. First, I set up an Arraylist to store all of the
+						movies and tried a heap sort. Although it worked fine for sorting the movies, I eventually settled on a quicksort for a cleaner
+						implementation.
+					</p>
+					<br>
+					<h3>Future Goals</h3>
+					<br>
+					<p>The basis for the <a href="https://github.com/AlexYucs/MovieRec">Movie Ratings Java App</a> have been set up. There are still a lot of directions this project can go.
+						I will be planning on setting up a GUI and extend the movie scraper to more than IMDb Top 250.
+					</p>
+				<br>
+				<br>
+				</div>
+			</div>
+
+
 			<div class="post">
 
 				<div class = "subpost">
 					<h2>Minimalistic Python Music Player Overlay</h2>
-					<h4>Jan 2018</h4>
+					<h4>Jan 2017</h4>
 					<p>I'm always a fan of minimalistic design. The goal for this project was to create a lightweight
 					Music Player with only 6 buttons, Play, Pause, Forward, Backward, and Volume Controls. Similar to a
 					Digital iPod Shuffle."</p>
@@ -90,10 +131,13 @@
 				<br>
 			</div>
 		</div>
+
+
+
 			<div class="post">
 				<div class="subpost">
 					<h2>Travel Helper: Check Gas Prices</h2>
-					<h4>Jan 2018</h4>
+					<h4>Jan 2017</h4>
 					<p>During the Spring and Summer, I do a lot of hiking. Unfortunately, most of the nice trails are over an hour away from me, which means I'm not very familiar with the area.<br><br> I remember one of my trips during this past Summer ended in a mess.
 						We nearly ran out of gas somewhere in Fredrick County, so we grabbed the first available gas station and filled our tank. However, every gas station we saw afterwards was significantly cheaper and I felt we were a bit ripped off.<br><br> So, I'll
 						be writing a Python bot to find the lowest gas prices in a small radius. The original plan was to use Google Places API and request the prices for gas_stations, but I ran into a little problem
