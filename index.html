@@ -54,6 +54,49 @@
 		</div>
 		<div class="blogmain">
 
+			<div class="post">
+				<div class = "subpost">
+					<h2>Discord.py Music Bot</h2>
+					<h4>May 2017</h4>
+					<br>
+					<p>Discord is a popular <a href="https://discordapp.com/">voice chat application</a>
+						capable of running on most major operating systems. Because of how easily bots can
+						be integrated into the servers, there is a large community devoted to bot development.
+					</p>
+					<br>
+					<h3>Goal: Playing Mp3 Files</h3>
+					<br>
+					<p>After playing around with the Discord API, I decided to make my own music bot. There
+						are many very popular music bots out such as <a href="https://github.com/Just-Some-Bots/MusicBot">Just-Some-Bots' Music Bot</a>,
+						but I've noticed that most of them use Youtube Downloader instead of mp3 files already
+						on the owner's computer.
+					</p>
+					<br>
+					<p>Since my computer already has a large collection of mp3 files, I decided to
+						modify the example playlist bot from the Discord.py API. Like Just-Some-Bots, this
+						example also uses Youtube Downloader, but it provided a good start point.
+					</p>
+					<br>
+					<h3>Stream a Single Mp3 File</h3>
+					<br>
+					<p>Playing a single Mp3 file was fairly simple. The <i>create_ffmpeg_player("file.mp3")</i>
+						method from the API creates a Player object and this streams the music once a bot connects to a voice channel.
+						So the "play" command was replaced by a random search for an mp3 from a Music folder and a new player creation.
+					</p>
+					<br>
+					<h3>Continuous Playing</h3>
+					<br>
+					<p>The original code relied on a playlist and a queue of music from Youtube requested by people in the chat.
+						Unfortunately, this needed to be completely scrapped for this Mp3 Shuffle Bot. Once again, the <i>create_ffmpeg_player("file.mp3")</i>
+						had a solution for this. There is an "after" parameter in the method which runs a function immediately after the stream ends.
+						By having it call a <i>cont</i> method to reroll the song and continue playing, I created an unending playlist.
+						Finally, the forward and backward options were recycled from my previous music player project, <a href="https://github.com/AlexYucs/PyMusic">PyMusic</a>.
+						The forked version of Discord.py API with my new music bot can be found <a href="https://github.com/AlexYucs/discord.py">here</a>.
+					</p>
+					<br>
+					<br>
+				</div>
+			</div>
 
 			<div class="post">
 				<div class = "subpost">
@@ -88,8 +131,8 @@
 					<p>The basis for the <a href="https://github.com/AlexYucs/MovieRec">Movie Ratings Java App</a> have been set up. There are still a lot of directions this project can go.
 						I will be planning on setting up a GUI and extend the movie scraper to more than IMDb Top 250.
 					</p>
-				<br>
-				<br>
+					<br>
+					<br>
 				</div>
 			</div>
 
