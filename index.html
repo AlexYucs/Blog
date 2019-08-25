@@ -56,6 +56,45 @@
 
 			<div class="post">
 				<div class = "subpost">
+					<h2>Selenium Testing Tool</h2>
+					<h4>August 2019</h4>
+					<br>
+					<p>The goal of this project was to make a distributable testing application for ui testing. This project relies
+on selenium for automation, vue for frontend, and electron for the application framework.
+					</p>
+					<br>
+					<h3>Logic and Structure</h3>
+					<br>
+					<p>The frontend had a basic flow for testing with a selector to choose the environment to test in and buttons to
+determine which browser to run. In the editor tab, there are more details about actions within the flow
+that includes button clicks, selections, and text input. Finally, there is the settings tab which provides login
+credentials and urls for the different environments.
+					</p>
+					<br>
+					<p>The vue files had the templates for each specific tab. There was basic logic there to update the vuex state when a value
+or variable changed. For even bigger changes, such as additions to the flow, the functions in the vue files would 
+update the database containing the various actions (composed of card title, html tag checked, tag name or text,
+and optionally input) in the flow. The automated clicking flow itself relies on a javascript file which will run through
+the database actions of the flow chosen.
+					</p>
+					<br>
+					<h3>Layout and Styling</h3>
+					<br>
+					<p>The project used elements-ui for styling since it had a majority of the prebuilt components. This made it really easy to use as a PoC application. NeDB was used as a database since it was fast to stand up. Firebase would be a good option if
+you wanted to move forward with features such was exporting or storing flows to a central repository. 
+					</p>
+					<br>
+					<h3>Roadblocks and Solutions</h3>
+					<br>
+					<p>General issues with Vue and Electron. Several guides on those are outdated including the template. Electron also does a weird thing where it will remove usr/local/bin so that will need to be set in the process.env beforehand if you rely on programs from the path. 
+					</p>
+					<br>
+					<br>
+				</div>
+			</div>
+			
+			<div class="post">
+				<div class = "subpost">
 					<h2>Discord.py Music Bot</h2>
 					<h4>May 2017</h4>
 					<br>
