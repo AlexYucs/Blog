@@ -56,6 +56,36 @@
 
 			<div class="post">
 				<div class = "subpost">
+					<h2>Golang Death2ports Tool</h2>
+					<h4>October 2019</h4>
+					<br>
+					<p>The goal of this project was to make a CLI tool to make life easier when working with unkilled ports and processes.
+					</p>
+					<br>
+					<h3>Functionality</h3>
+					<br>
+					<p>The code runs an infinite loop that uses exec to run a ps and lsof command to see all running proceses and which processes are occupying ports. These 
+are then stored in a map with corresponding indexes and pids that are printed out along with the stdout of the ps and lsof processes themselves.
+					</p>
+					<br>
+					<p>After printing out the indexes, the code will try to read an input, determine if it matches a string "r" for refreshing the loop where it will break and run a 
+continue or is a valid index for the processes. When a valid index is entered the code will attempt to run a kill -TERM to end the process normally. If that fails and the process is stalling a kill -KILL 
+command will be run.
+					</p>
+					<br>
+					<h3>Roadblocks and Solutions</h3>
+					<br>
+					<p>No real roadblocks here. I had the script written out previously as a bashscript so this was just an experiment to try out Golang. I haven't written C 
+a while so it was a pretty big change of pace and took a bit to get used to the syntax again. The language is nice and they kept syntax as simple as possible. I especially like the change they made 
+to the easier looping syntax and the conditional statement pre-execution.
+					</p>
+					<br>
+					<br>
+				</div>
+			</div>
+			
+			<div class="post">
+				<div class = "subpost">
 					<h2>Selenium Testing Tool</h2>
 					<h4>August 2019</h4>
 					<br>
